@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaNa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">MaNa</h2>
+                <p class="sub-heading">Mad & Nad</p>
+            </div>
+            <div class="features features-1">
+                <h4 class="name">Mad</h4>
+                <p class="full-name">Muhammad Rhamdani</p>
+            </div>
+            <div class="features features-2">
+                <h4 class="name">Nad</h4>
+                <p class="full-name">Nadhia Anisya Ramadhany</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>MaNa</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Love Language</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">⏰</div>
+                <h3>Quality Time</h3>
+                <p>Quality time means spending quality time with loved ones. The love language of quality time really prioritizes togetherness so that you can give full time and affection in that moment.</p>
+            </div>
+            <div class="service">
+                <div class="icon">🛵</div>
+                <h3>Act of Service</h3>
+                <p>Act of service is the language of love shown by giving an action or serving. This action can occur spontaneously, selflessly or voluntarily, and on the basis of one's own initiative.</p>
+            </div>
+            <div class="service">
+                <div class="icon">👩🏼‍🤝‍🧑🏻</div>
+                <h3>Physical Touch</h3>
+                <p>Physical touch includes ways of expressing love through consensual physical touch. However, the type of physical touch shown can differ depending on who the target is. For example, physical touch with your partner will certainly be different for parents, children or friends.</p>
+            </div>
+            <div class="service">
+                <div class="icon">🎁</div>
+                <h3>Receiving Gifts</h3>
+                <p>People with love language receiving gifts will show their love by giving gifts or receiving gifts. When they give a gift or receive a gift, they will feel very appreciated, remembered and loved.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/gallery/1.JPG" alt="">
+            <img src="img/gallery/2.JPG" alt="">
+            <img src="img/gallery/3.JPG" alt="">
+            <img src="img/gallery/4.JPG" alt="">
+            <img src="img/gallery/5.JPG" alt="">
+            <img src="img/gallery/6.JPG" alt="">
+            <img src="img/gallery/7.JPG" alt="">
+            <img src="img/gallery/8.JPG" alt="">
+        </section>
+
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function(){
+        nav.classList.toggle('slide');
+        }); 
+    </script>
+</body>
+</html>
